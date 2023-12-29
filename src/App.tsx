@@ -1,7 +1,8 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
 
 function App() {
-  return <div>Webpack app</div>;
+  return <Navbar />;
 }
 
 export default App;
