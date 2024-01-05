@@ -1,9 +1,7 @@
 import React from "react";
 import { FooterContainer, FooterText, Link } from "../StyledComponents/Footer";
 
-interface FooterProps {
-  // Add any additional props if needed
-}
+interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => {
   return (

@@ -19,12 +19,3 @@ export const NavList = styled.ul`
 
 export const NavItem = styled.li``;
 
-export const NavLink = styled.a`
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 17px;
-  &:hover {
-    color: #3498db;
-  }
-`;

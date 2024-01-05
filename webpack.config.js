@@ -8,7 +8,7 @@ const isProduction = process.env.NODE_ENV === "production";
 
 module.exports = {
   resolve: {
-    extensions: [".js", ".jsx", ".ts", ".tsx"],
+    extensions: [".js", ".jsx", ".ts", ".tsx", ".module.css"],
     // fallback: { "process/browser": require.resolve("process/browser") },
   },
   entry: "./src/index.tsx",
